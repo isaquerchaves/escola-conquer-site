@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: white;
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+.header{
+    width: 100%;
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 50px 20px 50px;
+    flex-wrap: wrap;
+    gap: 8px 15px;
+}
+.logo{}
+.headerBtnGroup{
+    display: flex;
+    gap: 15px;
+}
+.navBtn{
+    font-size: 15px;
+    padding: 6px;
+    background-color: transparent;
+    border: 2px solid transparent;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.navBtn:hover{
+    color: yellow;
+}
+.navBtnSouAluno{
+    font-size: 16px;
+    color: black;
+    background-color: yellow;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+}
+.gridContainer{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.boxVideoApresentacao{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.videoApresentacao{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid;
+    border-color: rgb(34, 34, 34);
+    border-radius: 40px;
+}
+.titulos{
+    padding: 3%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+}
+.boxInfoConquer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    grid-area: boxInfoConquer;
+    padding: 3%;
+}
+.boxItemInfoConquer{
+    border-radius: 5px;
+    background-color: rgb(21, 21, 22);
+    height: auto;
+    width: 320px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: 30px;
+}
+.infoConquerTitulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    color: yellow;
+    width: 100%;
+}
+.infoConquerDescricao{
+    font-size: 18px;
+    padding-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+.missaoCard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width:1024px;
+    margin:0 auto;
+}
+.missaoText{
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border: 1px solid;
+    border-color: yellow;
+    padding: 15px 50px 15px 50px;
+}
