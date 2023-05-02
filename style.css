@@ -46,6 +46,7 @@
     border-radius: 20px;
 }
 .gridContainer{
+    width: 100%;
     padding-left: 15%;
     padding-right: 15%;
 }
@@ -112,4 +113,42 @@
     border: 1px solid;
     border-color: yellow;
     padding: 15px 50px 15px 50px;
+}
+.boxFraseEmpresas{
+    padding: 3%;
+}
+.fraseEmpresas{
+    margin-top: 5%;
+    border-left: 5px solid;
+    border-color: yellow;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.fraseEmpresas1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    color: white;
+    font-weight: bold;
+}
+.fraseEmpresas2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #757575;
+}
+.boxEmpTreina{
+    padding: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    grid-area: boxEmpTreina;
+}
+.cardEmpTreina{
+    padding: 10px;
+    justify-content: center;
+    background-color: rgb(32, 32, 32);
+}
+.logoEmpTreina{
+    width: 120px;
+    height: 120px;
 }
